@@ -3,34 +3,38 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #fff;
 }
 
 
 body
 {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(to top, #e03cdb, #000);
 }
+
 
 .flexer
 {
-    background-color: aqua;
-    height: 60vh;
+    background-color: rgb(184, 127, 200);
+    height: 55vh;
     width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border: #000 solid 2px;
+    box-shadow: 0px 0px 10px 5px #000;
 }
 
 .question
 {
-    border: 1px solid black;
-    width: 2vw;
-    height: 3vh;
-    top: 0;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 10px 1px #000;
+    width: 4vw;
+    height: 5vh;
+}
+
+.btn:hover
+{
+  background-color: #000;
+  transition: 0.3s ease;
+  border: 1px solid #000;
 }
 
 
@@ -40,6 +44,7 @@ body
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     width: 100%; /* Full-width */
+    padding: 2px;
     height: 25px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
@@ -59,7 +64,7 @@ body
     appearance: none;
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
-    background: #04AA6D; /* Green background */
+    background: #000; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
   
